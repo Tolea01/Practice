@@ -2,7 +2,18 @@ body{
     background:url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* width: 100vw;
+    width: 100vw;
     height: 100vh;
-    overflow: hidden; */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+}
+
+.content{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 95%;
+    border-radius: 7px;
 }
