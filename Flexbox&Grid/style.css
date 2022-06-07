@@ -15,5 +15,17 @@ body{
     background-color: rgb(255, 255, 255);
     width: 40%;
     height: 95%;
-    border-radius: 7px;
+    border-radius: 4px;
+}
+
+.user1{
+    display: flex;
+    flex-direction: row;
+}
+.user1 img{
+    height: 15%;
+    width: 15%;
+    border-radius: 55px;
+    margin-left: 3%;
+    margin-top: 3%;
 }
