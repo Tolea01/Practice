@@ -1,5 +1,5 @@
-body{
-    background:url(img/background.jpg);
+body {
+    background: url(img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -7,31 +7,42 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     margin: 0;
 }
 
-.content{
+.content {
     background-color: rgb(255, 255, 255);
     width: 40%;
     height: 95%;
     border-radius: 4px;
 }
 
-img{
-    height: 15%;
-    width: 15%;
-    border-radius: 55px;
-    margin-left: 3%;
-    margin-top: 10%;
-}
-
-.users_img{
+.users {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.usersname{
-    margin-left: 25%;
+.user-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 55px;
+    margin-left: 20px;
+    margin-top: 37px;
 }
 
+.name {
+    font-size: 30px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    margin-top: 57px
+}
+
+.city {
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: -25px;
+}
