@@ -1,0 +1,101 @@
+                                                            /* ПСЕВДОКЛАССЫ */
+/* .test button:hover{
+    background-color: tomato;
+} */
+
+/* .test button:focus{
+    background-color: tomato;
+} */
+
+/* .test button:first-child{
+    background-color: tomato;
+} */
+
+/* .test button:last-child{
+    background-color: tomato;
+} */
+
+/* .test button:nth-child(3){
+    background-color: tomato;
+} */
+
+/* odd - нечетные элементы */
+/* .test button:nth-child(odd){  
+    background-color: tomato;
+} */
+
+/* odd - четные элементы */
+/* .test button:nth-child(even){  
+    background-color: tomato;
+} */
+
+/* .test button:nth-child(n){  
+    background-color: tomato;
+} */
+
+/* каждый второи элемент*/
+/* .test button:nth-child(2n){  
+    background-color: tomato;
+} */
+
+/* нечетные элементы */
+/* .test button:nth-child(2n+1){  
+    background-color: tomato;
+} */
+
+/* input:required{
+    background-color: tomato;
+} */
+
+/* input:checked{
+    width: 100px;
+    height: 100px;
+} */
+
+/* input:disabled{
+    background: red;
+} */
+
+/* input:not(.input){
+    background-color: aqua;
+} */
+
+/* input:not([type="password"]){
+    background-color: red;
+} */
+
+/* input:not(:disabled){
+    background-color: cyan;
+} */
+
+
+
+                                                                        /* ПСЕВДОЭЛЕМЕНТЫ */
+
+/* input::placeholder{
+    color: tomato;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+/* .test-div::before{
+    content: '😄';
+}
+
+.test-div::after{
+    content: '😎';
+} */
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    margin-right: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+}
