@@ -1,0 +1,19 @@
+/* p.test *{
+    background-color: aqua;
+} */
+
+/* input[type="text"]{
+    background-color: tomato;
+} */
+
+/* input[type$="ord"]{
+    background-color: tomato;
+} */
+
+/* input[type*="text"]{
+    background-color: tomato;
+} */
+
+/* input[type^="p"]{
+    background-color: tomato;
+} */
