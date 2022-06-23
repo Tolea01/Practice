@@ -27,3 +27,32 @@
     top: 500px;
     left: 250px;
 } */
+
+                                        /* EX_2 */
+
+.red-box,
+.blue-box,
+.green-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+}
+
+.red-box{
+    border: 2px solid red;
+    top: 200px;
+    left: 100px;
+}
+
+.blue-box{
+    border: 2px solid blue;
+    top: 200px;
+    left: 300px;
+}
+
+.green-box{
+    border: 2px solid green;
+    top: 200px;
+    left: 500px;
+}
