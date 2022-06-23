@@ -1,0 +1,29 @@
+/* body{
+    position: relative;
+} */
+                                        /* EX_1 */
+/* .red-box,
+.blue-box,
+.green-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.red-box{
+    border: 2px solid red;
+    top: 100px;
+    left: 50px;
+}
+
+.blue-box{
+    border: 2px solid blue;
+    top: 300px;
+    left: 150px;
+}
+
+.green-box{
+    border: 2px solid green;
+    top: 500px;
+    left: 250px;
+} */
