@@ -85,13 +85,12 @@
 } */
 
                                         /* EX_5 */
-.red-box,
+/* .red-box,
 .blue-box,
 .green-box{
     width: 100px;
     height: 100px;
     position: absolute;
-    /* opacity: 0.7; */
 }
 
 .red-box{
@@ -111,4 +110,23 @@
     background-color: green;
     top: 230px;
     left: 150px;
+} */
+
+                                        /* EX_6 */
+.green{
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+    position: relative;
+    top: 100px;
+    left: 500px;
+}
+
+.red{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    position: relative;
+    top: 150px;
+    left: 200px;
 }
