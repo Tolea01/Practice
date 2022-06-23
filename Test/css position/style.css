@@ -83,3 +83,32 @@
     top: 230px;
     left: 150px;
 } */
+
+                                        /* EX_5 */
+.red-box,
+.blue-box,
+.green-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* opacity: 0.7; */
+}
+
+.red-box{
+    background-color: red;
+    top: 100px;
+    left: 50px;
+}
+
+.blue-box{
+    background-color: blue;
+    top: 170px;
+    left: 100px;
+    z-index: 1;
+}
+
+.green-box{
+    background-color: green;
+    top: 230px;
+    left: 150px;
+}
