@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-content{
+    margin: 123px 520px 0px 291px;
+}
+
+p:before{
+    content: url(../WebPage/icon\ green.svg);
+}
+
+.page-content__text{
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #273d46;
+}
+
+.page-content__text:nth-child(4){
+    text-transform: uppercase;
+    margin-bottom: 81px;
+}
+
+.page-content__text_active:hover{
+    color: #FA8072;
+}
+
+.page-content__text_active:hover:before{
+    content: url(../WebPage/icon\ tomato.svg);
+}
+
+.page-content__text:nth-child(8){
+    margin-bottom: 140px;
+}
