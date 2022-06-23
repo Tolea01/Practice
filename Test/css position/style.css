@@ -159,3 +159,40 @@
     bottom: 100px;
     right: 70px;
 } */
+
+
+                                        /* EX_8 */
+.main-box{
+    margin: 0 auto;
+    width: 300px;
+    height: 800px;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+}
+
+.red,
+.yellow,
+.green{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left: 70px;
+}
+
+.red{
+    background-color: red;
+    top: 100px;
+}
+
+.yellow{
+    background-color: yellow;
+    top: 150px;
+}
+
+.green{
+    background-color: green;
+    top: 200px;
+}
