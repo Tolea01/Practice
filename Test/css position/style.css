@@ -30,7 +30,7 @@
 
                                         /* EX_2 */
 
-.red-box,
+/* .red-box,
 .blue-box,
 .green-box{
     width: 100px;
@@ -55,4 +55,31 @@
     border: 2px solid green;
     top: 200px;
     left: 500px;
+} */
+
+                                        /* EX_3 */
+/* .red-box,
+.blue-box,
+.green-box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
 }
+
+.red-box{
+    border: 2px solid red;
+    top: 100px;
+    left: 50px;
+}
+
+.blue-box{
+    border: 2px solid blue;
+    top: 170px;
+    left: 100px;
+}
+
+.green-box{
+    border: 2px solid green;
+    top: 230px;
+    left: 150px;
+} */
