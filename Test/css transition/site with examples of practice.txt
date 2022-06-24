@@ -1,0 +1,12 @@
+http://old.code.mu/tasks/css/rabota-s-plavnymi-perehodami-transition-na-css.html
+
+
+
+
+Property order:
+1.Transition-property;(backround-color, color, font-size.....)
+2.Transition-duration;(s,ms)
+3.Transition-timing-function;(ease,ease-in, ease-out, ease-in-out, linear, steps(int,start|end), cubic-bezier(x1,y1,x2,y2))
+4.Transition-delay;(s,ms)
+
+https://fls.guru/csstransition.html
