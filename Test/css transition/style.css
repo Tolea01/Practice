@@ -1,10 +1,22 @@
-input{
-    height: 20px;
-    width: 200px;
-    transition: all 1s linear 0s;
+div{
+    display: block;
 }
 
-input:hover{
-    width: 300px;
-    transition: width 0.5s linear 0.3s;
+.main-box{
+    padding: 40px 5%;
+    border: 1px solid green;
+}
+
+
+.main-box div{
+    background: white;
+    border: 1px solid red;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 40px;
+    transition: all 1s ease-out;
+}
+
+.main-box:hover div{
+    width: 100%;
 }
