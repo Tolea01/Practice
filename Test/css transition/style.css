@@ -1,17 +1,11 @@
 .box{
     width: 400px;
-    height: 200px;
-    margin-left: 100px;
-    margin-top: 100px;
-    text-transform: uppercase;
-    text-align: center;
-    color: red;
+    height: 100px;
     border: 2px solid red;
     transition: all 0.5s linear 0s;
 }
 
 .box:hover{
-    background-color: red;
-    color: wheat;
-    transition: background-color 1s linear 0s, color 1s linear 0s;
+    transition: width 1s linear 0s;
+    width: 100%;
 }
