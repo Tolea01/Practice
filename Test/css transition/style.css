@@ -2,21 +2,21 @@ div{
     display: block;
 }
 
-.main-box{
-    padding: 40px 5%;
-    border: 1px solid green;
-}
-
-
-.main-box div{
-    background: white;
-    border: 1px solid red;
-    width: 30%;
-    height: 30px;
-    margin-bottom: 40px;
+div{
+    width: 400px;
+    height: 40px;
+    border: 2px solid red;
     transition: all 1s ease-out;
 }
 
-.main-box:hover div{
-    width: 100%;
+div:first-child{
+    margin-top: 100px;
+}
+
+div{
+    margin-top: 50px;
+}
+
+div:hover + div {
+    width: 70%;
 }
