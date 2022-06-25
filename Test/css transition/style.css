@@ -6,7 +6,7 @@ div{
     width: 400px;
     height: 40px;
     border: 2px solid red;
-    transition: all 1s ease-out;
+    transition: all 1s linear 0s;
 }
 
 div:first-child{
@@ -17,6 +17,6 @@ div{
     margin-top: 50px;
 }
 
-div:hover + div {
+div:hover ~ div {
     width: 70%;
 }
