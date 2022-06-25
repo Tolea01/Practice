@@ -17,6 +17,6 @@ div{
     margin-top: 50px;
 }
 
-div:hover ~ div {
+div:hover + div + div {
     width: 70%;
 }
