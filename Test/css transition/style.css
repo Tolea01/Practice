@@ -3,16 +3,12 @@ div{
     height: 50px;
     border: 2px solid red;
     margin-top: 50px;
-    transition: width 2.5s steps(5,start) 0s;
+    transition: width 1s 	cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
 }
 
-.first:hover{
+div:hover{
     width: 100%;
-    transition: width 2.5s steps(5,start) 0s;
+    transition: width 2.5s 	cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
 }
 
-.first:hover + .second{
-    width: 100%;
-    transition: width 2.5s steps(5,start) 0.5s;
-}
 
