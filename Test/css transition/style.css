@@ -1,22 +1,27 @@
-div{
-    display: block;
-}
-
-div{
+.main{
     width: 400px;
-    height: 40px;
+    height: 70px;
     border: 2px solid red;
-    transition: all 1s linear 0s;
+    font-size: 18px;
+    text-align: center;
 }
 
-div:first-child{
-    margin-top: 100px;
+.second{
+    width: 300px;
+    height: 50px;
+    background-color: tomato;
+    position: relative;
+    top: 30px;
+    left: -350px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+    transition: left 1s linear 0s;
 }
 
-div{
-    margin-top: 50px;
-}
-
-div:hover + div + div {
-    width: 70%;
+.main:hover + div{
+    position: relative;
+    left: 0px;
+    transition: left 0.5s linear 0s;
 }
