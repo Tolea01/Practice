@@ -1,27 +1,18 @@
-.main{
-    width: 400px;
-    height: 70px;
-    border: 2px solid red;
-    font-size: 18px;
-    text-align: center;
-}
-
-.second{
+div{
     width: 300px;
     height: 50px;
-    background-color: tomato;
-    position: relative;
-    top: 30px;
-    left: -350px;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    line-height: 40px;
-    transition: left 1s linear 0s;
+    border: 2px solid red;
+    margin-top: 50px;
+    transition: width 2.5s steps(5,start) 0s;
 }
 
-.main:hover + div{
-    position: relative;
-    left: 0px;
-    transition: left 0.5s linear 0s;
+.first:hover{
+    width: 100%;
+    transition: width 2.5s steps(5,start) 0s;
 }
+
+.first:hover + .second{
+    width: 100%;
+    transition: width 2.5s steps(5,start) 0.5s;
+}
+
