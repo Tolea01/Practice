@@ -2,14 +2,14 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    animation: red-square 3s ease infinite normal 0s none;
+    animation: red-square 3s ease 1 normal 0s none;
 }
 
 @keyframes red-square{
     0%{
-        margin-left: 0px;
+        background-color: white;
     }
     100%{
-        margin-left: 500px;
+        background-color: red;
     }
 }
