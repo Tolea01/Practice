@@ -6,7 +6,7 @@
 .square{
     width: 30%;
     height: 100%;
-    border: 1px solid red;
+    border: 1px solid blue;
     animation: red-square 3s linear infinite alternate .5s none;
     animation-play-state: paused;
 }
@@ -23,6 +23,13 @@
     }
 }
 
-.box .square:hover{
+p:hover + .square{
     animation-play-state: running;
+}
+
+p{
+    width: 200px;
+    height: 20px;
+    border: 1px solid red;
+    text-align: center;
 }
