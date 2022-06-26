@@ -7,7 +7,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    animation: red-square 4s linear 1 normal 1s none;
+    animation: red-square 3s linear 4 alternate 1s none;
 }
 
 @keyframes red-square{
@@ -15,12 +15,8 @@
         margin-left: 0%;
         margin-top: 0%;
     }
-    50%{
-        margin-left: 100%;
-        margin-top: 0%;
-    }
     100%{
-       margin-left: 0%;
+       margin-left: 100%;
         margin-top: 0%;
     }
 }
