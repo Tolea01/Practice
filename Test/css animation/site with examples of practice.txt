@@ -1,0 +1,13 @@
+http://old.code.mu/tasks/css/rabota-s-animaciej-na-css.html
+
+
+Property order:
+1.Animation-name;
+2.Animation-duration;
+3.Animation-timing-function;(linear, ease....)
+4.Animation-iteration-count;
+5.Animation-direction;(alterate, reverse...)
+6.Animation-delay;
+7.Animation-fill-mode;(forwards...)
+
+https://fls.guru/cssanimation.html
