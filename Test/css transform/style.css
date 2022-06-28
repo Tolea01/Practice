@@ -1,9 +1,18 @@
-.links{
+body{
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.links{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
+    transform: rotate(-5deg);
 }
 
 a{
