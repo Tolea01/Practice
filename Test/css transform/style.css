@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.elem1:hover{
+    transform: rotate(45deg);
+}
+
+.elem2:hover{
+    transform: scale(2);
+}
+
+.elem3:hover{
+    transform:skew(50deg);
+}
+
+.elem4:hover{
+    transform: translateX(30px);
+}
+
+.elem5:hover{
+    transform: translate(-20px,-20px);
+}
