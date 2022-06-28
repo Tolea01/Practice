@@ -7,21 +7,26 @@ div{
 }
 
 .elem1:hover{
+    transform-origin: bottom right;
     transform: rotate(45deg);
 }
 
 .elem2:hover{
-    transform: scale(2);
+    transform-origin: bottom left;
+    transform: rotate(45deg);
 }
 
 .elem3:hover{
-    transform:skew(50deg);
+    transform-origin: center;
+    transform: rotate(45deg);
 }
 
 .elem4:hover{
-    transform: translateX(30px);
+    transform-origin: bottom right;
+    transform:scale(2);
 }
 
 .elem5:hover{
-    transform: translate(-20px,-20px);
+    transform-origin: bottom right;
+    transform:skew(45deg)
 }
