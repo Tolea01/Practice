@@ -1,6 +1,19 @@
-p{
-    width: 300px;
+.img{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img{
+    width: 400px;
     height: 300px;
-    margin: 0 auto;
-    transform: skewX(5deg);
+    transition: transform 1s linear 0s;
+}
+
+img:hover{
+    transform: scale(3,2);
+    transition: transform 1s linear 0s;
 }
