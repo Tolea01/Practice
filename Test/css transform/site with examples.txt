@@ -1,0 +1,20 @@
+http://old.code.mu/tasks/css/rabota-s-2d-transformaciyami-na-css.html
+
+
+Property:
+1.Translate(x,y)
+2.Scale(x,y)
+3.Rotate(n+deg)
+4.Skew(x+deg,y+deg)
+5.Matrix(x,y)
+6.Transform-origin
+7.Perspective, perspective-origin
+8.Translate3d (x, y, z)
+9.Scale3d (x, y, z)
+10.Rotate3d (x, y, z, deg)
+11.Matrix3d (n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)
+12.Transform-style
+13.Backface-visibility
+
+
+https://fls.guru/transform.html
