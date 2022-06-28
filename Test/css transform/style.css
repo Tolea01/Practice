@@ -1,13 +1,6 @@
-div{
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
+p{
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
-    margin-top: 350px;
-}
-
-.elem1:hover{
-    transform-origin: bottom right;
-    transform: rotate(45deg) scale(2,3);
-    border-radius: 50px;
+    transform: skewX(5deg);
 }
