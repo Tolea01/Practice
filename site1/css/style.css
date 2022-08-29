@@ -1,0 +1,21 @@
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav a,
+.navbar-nav a:hover {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    font-size: 30px;
+}
